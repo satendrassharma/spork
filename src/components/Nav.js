@@ -25,6 +25,12 @@ function Nav({ history }) {
           <Style fontSize="large" style={{ color: "white" }} />
         </Link>
         <div style={{ flexGrow: 1 }} />
+        <Link to="/add" style={{ textDecoration: "none", color: "white" }}>
+          Add
+        </Link>
+        <Link to="/view" style={{ textDecoration: "none", color: "white" }}>
+          view
+        </Link>
         {ctx.auth.id ? (
           <>
             <Tooltip title="Users">

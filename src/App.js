@@ -7,6 +7,8 @@ import { ContextProvider } from "./components/Context";
 import { CssBaseline } from "@material-ui/core";
 import Login from "./components/Login";
 import Users from "./components/Users";
+import View from "./components/View";
+import Add from "./components/Add";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <CoverPicture />
           <main>
             <Switch>
+              <Route path="/view" component={View} />
+              <Route path="/add" component={Add} />
               <Route path="/users" component={Users} />
               <Route path="/login" component={Login} />
               <Route path="/" component={Main} />

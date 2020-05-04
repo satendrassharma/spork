@@ -78,7 +78,7 @@ export default function Media({ isOwner }) {
       id: -1,
       title: "",
       type: "error",
-      date: format(new Date(), "YYYY-MM-DD")
+      date: format(new Date(), "yyyy-mm-dd")
     };
     const newMedia = [newItem, ...media];
     setMedia(newMedia);
