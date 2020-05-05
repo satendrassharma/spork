@@ -7,7 +7,7 @@ import { ContextProvider } from "./components/Context";
 import { CssBaseline } from "@material-ui/core";
 import Login from "./components/Login";
 import Users from "./components/Users";
-import View from "./components/View";
+import View from "./components/View/View";
 import Add from "./components/Add";
 
 function App() {
